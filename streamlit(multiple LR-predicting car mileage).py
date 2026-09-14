@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 
-data=pd.read_csv(r"C:\Users\Aleena M.S\Desktop\data\car_mileage_dataset.csv")
+data = pd.read_csv("car_mileage_dataset.csv")
 show_data = st.checkbox("Show Dataset")
 
 if show_data:
